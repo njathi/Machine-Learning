@@ -1,5 +1,6 @@
-🌞 Solar Energy Prediction Model
+#🌞 Solar Energy Prediction Model
 Objective:
+
 To develop a machine learning model that accurately predicts Global Tilted Irradiance (GTI Clean), a key indicator of solar energy potential, using weather and temporal data.
 
 🔧 Methodology
