@@ -90,3 +90,23 @@ High accuracy
 Low prediction error
 
 Robust performance even with variability in weather
+
+Data Bias:
+
+Bias in your data can significantly affect the accuracy, fairness, and generalizability of your solar prediction model. Here's how it might show up in your context:
+
+🔁 1. Temporal Bias
+If your dataset is heavily skewed toward:Certain months or seasons (e.g., mostly summer data), Specific times of day (e.g., mostly midday readings)
+The model may perform well during those timeframes but poorly in others (e.g., winter mornings). It learns only partial seasonality.
+
+🌍 2. Geographic or Location Bias
+If your data comes from:One specific region or site, A particular terrain (e.g., only urban or coastal)
+The model may not generalize well to other regions, especially those with different weather patterns or solar angles.
+
+☁️ 3. Weather Distribution Bias
+If some conditions are underrepresented, like:Cloudy days,High humidity or wind scenarios
+The model may overestimate solar potential in those rare conditions because it hasn't seen enough examples of them.
+
+
+
+This solar energy prediction model directly advances the goals of UN Sustainable Development Goal (SDG) 7: Affordable and Clean Energy by leveraging machine learning to improve the accuracy of solar irradiance forecasting. By using real-time weather and temporal data to predict solar potential, the model enables more efficient solar panel placement, energy harvesting, and grid integration—making clean energy systems more reliable and scalable. Indirectly, the model also contributes to SDG 13: Climate Action by supporting the global transition away from fossil fuels, and SDG 9: Industry, Innovation, and Infrastructure through the deployment of innovative AI solutions in energy planning. This aligns with global efforts to build sustainable and resilient energy systems through technology and data-driven strategies.
